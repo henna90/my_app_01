@@ -1,6 +1,6 @@
 const express = require('express')
 const cors = require('cors')
-cont path = require('path')
+const path = require('path')
 // Create the server
 const app = express()
 // Serve our api route /cow that returns a custom talking text cow
