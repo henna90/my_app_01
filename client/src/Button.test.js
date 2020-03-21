@@ -11,7 +11,7 @@ describe("Button component", () => {
       const button = instance.findByType("button");
       button.props.onClick();
       const p = instance.findByType("p")
-      expect(p.props.children).toBe("The button was clicked");
+      expect(p.props.children).toBe("You clicked the button");
     });
 });  
   

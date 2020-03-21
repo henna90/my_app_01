@@ -10,7 +10,7 @@ class Button extends React.Component {
     }
     handleClick = () => {
       
-   this.setState({ text: "The button was clicked" })
+   this.setState({ text: "You clicked the button" })
   
 }
 
